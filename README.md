@@ -44,23 +44,4 @@ Install the required packages using pip:
 
 ```
 
-## Usage
-
-To use the sentiment analysis tool, you need to provide your Twitter API credentials. You can obtain these credentials by creating a Twitter Developer account and creating a new app.
-
-```bash
-consumer_key = "YOUR-CONSUMER-KEY"
-consumer_secret = "YOUR-CONSUMER-SECRET"
-access_token = "YOUR-ACCESS-TOKEN"
-access_token_secret = "YOUR-ACCESS-TOKEN-SECRET"
-
-
-```
-
-To change the topic for the sentimental tweets you change the variable "q"
-
-```bash
-tweets = api.search(q="Ukraine", lang="en", count=100)
-
-```
 
