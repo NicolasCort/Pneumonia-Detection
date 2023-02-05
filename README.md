@@ -15,7 +15,8 @@ Here is an example of a patient with and without pneumonia:
 
 
 For the model I used a Covolutional Neural Network (CNN), you can learn more about it here: https://en.wikipedia.org/wiki/Convolutional_neural_network
-## Prerequisites
+
+## Libraries
 
 - Python 3.7 or later
 - Numpy
@@ -62,4 +63,4 @@ To change the topic for the sentimental tweets you change the variable "q"
 tweets = api.search(q="Ukraine", lang="en", count=100)
 
 ```
-![Screenshot](Normal.png)
+
